@@ -212,6 +212,18 @@ body {
     gap: 24px;
 }
 
+.feature-item-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    border: 1px solid #8E8F99;
+    background: #F4F4FD;
+}
+
 .name-feature {
     margin-bottom: 8px;
     font-size: 20px;
@@ -283,6 +295,39 @@ body {
     letter-spacing: 0.02em;
     color: var(--SLATE, #434455);
     background-color: #FFFFFF;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.social-list-item {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icon {
+    fill: #f4f4fd;
+}
+
+.social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: #404bbf;
 }
 
 /* ============== /OUR TEAM SECTION ============== */
