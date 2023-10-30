@@ -486,7 +486,7 @@ transform: translateY(0%);
 .descrption-footer {
     width: 264px;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--CLOUD, #F4F4FD);
@@ -508,6 +508,8 @@ transform: translateY(0%);
 
 .name-social-media{
     font-weight: 500px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     margin-bottom: 16px;
     color: #FFFFFF;
 }
