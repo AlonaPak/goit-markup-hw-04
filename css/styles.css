@@ -183,17 +183,16 @@ body {
 
 /* ============== HERO STYLES ============== */
 .page-hero {
-    display: flex;
+    isplay: flex;
     align-items: center;
     flex-direction: column;
     margin: auto;
-    padding: 188px 0; 
-    background: var(--NAVY-BLUE, #2E2F42);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg.jpg);
-    max-width: 1440px;
+    padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/po.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 1440px
 }
 
 .name-hero-section {
